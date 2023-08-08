@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1 align="center">e-Compras</h1>
+		<h2 align="center">Manutenção de Usuário</h2><br/>
+		<table bgcolor="#ddddd" width="150" align="left">
+			<tr>
+				<td>Produtos</td>
+			</tr>
+			<tr>
+				<td>-[<a href="#inclusao">Inclusão</a>]</td>
+			</tr>
+			<tr>
+				<td>Relatórios:</td>
+			</tr>
+			<tr>
+				<td>-[<a href="#inclusao">Por usuário</a>]</td>
+			</tr>
+			<tr>
+				<td><hr/ color="black"></td>
+			</tr>
+			<tr>
+				<td>Manutenção</td>
+			</tr>
+			<tr>
+				<td>-[<a href="#inclusao">Usuários</a>]</td>
+			</tr>
+			<tr>
+				<td><hr/ color="black"></td>
+			</tr>
+			<tr>
+				<td>-[<a href="#inclusao">Alterar senha</a>]</td>
+			</tr>
+			<tr>
+				<td>-[<a href="#inclusao">Sair</a>]</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td align="right">Matrícula(*):</td>
+				<td align="left"><input type="text" name="matricula" size="5"/></td>
+			</tr>
+			<tr>
+				<td align="right">Login(*):</td>
+				<td align="left"><input type="text" name="Login" size="15"/></td>
+			</tr>
+			<tr>
+				<td align="right">Nome(*):</td>
+				<td align="left"><input type="text" name="Nome" size="25"/></td>
+			</tr>
+			<tr>
+				<td align="right">Órgão(*):</td>
+				<td align="left">
+					<select name="slc_orgao">
+						<option></option>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Supervisor(*):</td>
+				<td align="left">
+					<select name="slc_supervisor">
+						<option></option>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Tipo Usuário(*):</td>
+				<td align="left">
+					<select name="slc_tipo_usuario">
+						<option></option>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Situação(*):</td>
+				<td align="left">
+					<select name="slc_orgao">
+						<option>Ativo</option>
+						<option>Inativo</option>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Senha(*):</td>
+				<td align="left"><input type="password" name="senha" size="5"/></td>
+			</tr>
+			<tr>
+				<td align="right">Confirme Senha(*):</td>
+				<td align="left"><label><input type="password" name="senha" size="5" required></label></td>
+			</tr>
+			<tr>
+				<td><br/></td>
+			</tr>
+			<tr>
+				<td>Campo obrigatório(*)</td>
+			</tr>
+			<tr>
+				<td>
+				<input type="submit" name="botao_confirmar" value="confirmar">
+				<input type="reset" name="botao_limpar" value="limpar">
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

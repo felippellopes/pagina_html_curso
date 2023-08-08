@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+	<body text="#8b0000" background="../Imagens/listras.JPG">
+		<table align="center" bgcolor="LightCyan" width="90%" cellspacing="10" cellpadding="10" border="2">
+			<tr>
+				<td><img src="../Imagens/vermelho.png" width="100%" height="40"></td>
+			</tr>
+			<tr>
+				<td><img src="../Imagens/pizza.JPG" width="5%" height="50" align="bottom">Cadastre-se e receba nossas atualizações
+				<hr/ color="brown">
+					<fieldset align="center">
+					<table align="center" width="50%" border="1">
+						<tr>
+							<td align="right">Nome:</td><td align="left"><input type="text" name="txt_nome" maxlength="30"/></td>
+						</tr>
+						<tr>
+							<td align="right">Senha:</td><td align="left"><input type="password" name="pwd_senha" maxlength="15"/></td>
+						</tr>
+						<tr>
+							<td align="right">Confirmação de senha:</td><td align="left"><label><input name="pwd_senha" type="password" maxlength="15"required></label></td>
+						</tr>
+						<tr>
+							<td align="right">Seu tipo de pizza favorita:</td>
+							<td align="left">
+								<select name="Pizza">
+									<option value="Cal">Calabresa</option>
+									<option value="Mar">Margherita</option>
+									<option value="Mus">Mussarela</option>
+									<option value="Pep">Pepperoni</option>
+									<option value="Pom">Pomodoro</option>
+									<option value="Por">Portuguesa</option>
+									<option value="Qua">Quatro_queijos</option>
+									<option value="Tos">Toscana</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td align="right">Quantas vezes come Pizza por semestre?</td>
+							<td align="left"><input type="radio" name="quantidade" value="1a5"/>Entre 1 a 5<br/>
+								<input type="radio" name="quantidade" value="5a10"/>Entre 5 a 10<br/>
+								<input type="radio" name="quantidade" value="10+"/>Mais de 10
+							</td>
+						</tr>
+						<tr>
+							<td align="right">Comentário:</td>
+							<td align="left"><textarea cols="50" rows="5" maxlength="200"></textarea></td>
+						</tr>
+						<tr>
+							<td align="center" colspan="2"><input type="checkbox" name="emails"/>Deseja receber e-mails dos nossos parceiros</td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" name="btn_enviar" value="Enviar"/>
+							<input type="submit" name="btn_limpar" value="Limpar"/>
+							</td>
+						</tr>
+					</table>
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://www.pizza.online.com.br" target="https://www.google.com">www.pizza.online.com.br</a></td>
+			</tr>
+			<tr>
+				<td><img src="../Imagens/vermelho.png" width="100%" height="40"></td>
+			</tr>
+		</table>
+	</body>
+</html>
